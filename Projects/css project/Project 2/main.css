@@ -1,0 +1,96 @@
+body {
+	background-color: cyan;
+	text-align: center;
+}
+
+header {
+	color: #990000;
+	font-size: 25px;
+	font-family: Zen Antique, sans-serif;
+	padding: 20px 0 20px 0;
+	text-shadow: 3px 1px 5px rgba(0, 0, 0,0.3);
+	animation-name: RGB;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-delay: 10s;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes RGB {
+	0% {
+		color: #990000;
+	}
+	15% {
+		color: whitesmoke;
+	}
+	45% {
+		color: yellow;
+	}
+	60% {
+		color: #0000ff;
+	}
+	75% {
+		color: #00ffff;
+	}
+}
+
+#home {
+	background-color: #D9D9D9;
+	border: solid 2px ;
+	margin: 15px 10% 10px 15%;
+	height: 550px;
+	width: 900px;
+}
+
+p {
+	background-color: #990000;
+	text-indent: 8%;
+	word-spacing: 40px;
+	color: #ffffff;
+	margin: 0 90px 0 90px;
+	box-shadow: 5px 5px 3px rgba(0, 0, 0,0.3);
+
+}
+
+a {
+	padding: 3px;
+	color: white;
+	text-decoration: none;
+
+}
+
+#intro {
+	border: 3px solid;
+	background-color: #525252;
+	margin: 10px 15% 10px 15%;
+	height: 400px;
+	width: 600px;
+
+}
+
+h2 {
+	color: #ffffff;
+	font-size: xx-large;
+}
+
+h3 {
+	color: #ffffff;
+	margin-top: 10%;
+	font-size: xx-large;
+	font-family: Arimo, monospace;
+}
+
+table {
+	font-family: monospace;
+	margin: 10px 0 0 10px;
+	color: #ffffff;
+}
+
+footer {
+	color: #990000;
+}
+
+a:hover {
+	color: white;
+	background-color: blue;
+}
