@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Travel Reservation</title>
+</head>
+<body bgcolor="cyan">
+<h1 value="" align="center">Travel Reservation Form</h1>
+<form action="#" method="Get">
+	<label for="Name">Passenger Name : </label>
+	<input type="text" name="Name" placeholder="Name" maxlength="30">
+	<br>
+	<br>
+	<label for="mobile">Mobile* : </label>
+	<input type="tel" name="number" placeholder="Mobile Number" required>
+	<br>
+	<br>
+	<label for="email">Mail ID* : </label>
+	<input type="email" name="email" placeholder="Email ID" required>
+	<br>
+	<br>
+	<label>Travel Month : </label>
+	<select>
+		<option default hidden>Month of Travel</option>
+		<option>Aug2018</option>
+		<option>Sep2018</option>
+		<option>Oct2018</option>
+		<option>Nov2018</option>
+		<option>Dec2018</option>
+		<option>Jan2019</option>
+		<option>Feb2019</option>
+		<option>Mar2019</option>
+		<option>Apr2019</option>
+	</select>
+	<br>
+	<br>
+	<label>Package* : </label>
+	<select required>
+		<option default hidden>Origin</option>
+		<option>Mumbai</option>
+		<option>Goa</option>
+		<option>Chennai</option>
+		<option>Kolkata</option>
+		<option>Assam</option>
+		<option>Kerala</option>
+		<option>Delhi</option>
+	</select>
+<br>
+	<br>
+	<label>Destination : </label>
+	<input type="text" name="destination" placeholder="Destination">
+
+	<input type="submit" name="submit" value="Get A Call">
+	<input type="reset" name="reset" value="Clear">
+
+</form>
+</body>
+</html>
